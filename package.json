@@ -1,0 +1,14 @@
+{
+  "name": "feaamb",
+  "version": "0.0.1",
+  "description": "Music Bot",
+  "main": "musicbot.js",
+  "author": "Cosmin Negrescu",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "opusscript": "0.0.7",
+    "simple-youtube-api": "^5.2.1",
+    "ytdl-core": "^3.1.2"
+  }
+}
