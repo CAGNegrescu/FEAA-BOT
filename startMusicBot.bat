@@ -1,0 +1,2 @@
+nodemon musicbot.js
+pause
