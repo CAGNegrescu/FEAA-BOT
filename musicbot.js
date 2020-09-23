@@ -3,8 +3,8 @@
 	const { Client, Util } = require("discord.js");
 	const ytdl=require("ytdl-core");
 	const Youtube=require("simple-youtube-api");
-	const prefix=botsettings.prefix;
-	const token=botsettings.token;
+	const prefix="!";
+	const token="NzM2NjIwMDA1NzU1NTg0NTMy.Xxxc1w.ivWDVg8CcEZ14ypIblTjkc9G3Gk";
 
 	const client = new Client({disableEveryone: true});
 	const youtube= new Youtube("AIzaSyA6pnz2j0_iMzfY6uuM7H5FuqDkzVqYQhk");
@@ -199,4 +199,4 @@ Ruleaza Acum:\n${serverQueue.songs[0].title}
 
 			}
 	}
-	client.login(botsettings.token);
+	client.login(token);
